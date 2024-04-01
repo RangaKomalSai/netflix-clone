@@ -59,7 +59,7 @@ header{
     font-size: 12px;
     background: rgba(22, 22, 22, 0.7);
     padding: 7px 15px;
-    border: none;
+    border: 0.5px solid white;
     border-radius: 5px;
     letter-spacing: 1px;
     cursor: pointer;
@@ -77,6 +77,9 @@ header{
     border-radius: 5px;
     margin-left: 15px;
     cursor: pointer;
+}
+.nav-item-2:hover{
+    background: rgba(255, 0, 0,0.8);
 }
 .feature-0-body{
     position: absolute;
@@ -140,6 +143,9 @@ input::placeholder{
     outline: none;
     border-radius: 5px;
     cursor: pointer;
+}
+.email-form button:hover{
+    background: rgba(255, 0, 0,0.8);
 }
 .email-form button i{
     font-size: 15px;
@@ -217,4 +223,39 @@ input::placeholder{
 .faq p{font-size: 20px; margin: 25px 0 15px 0;}
 .faq div{
     margin-bottom: 20px;
+}
+.contact{
+    width: 80%;
+    color: grey;
+    margin: 80px 0;
+}
+.contact p{
+    margin: 10px 0;
+}
+.contact p a{
+    color: grey;
+}
+.contact ul{
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+    gap:10px;
+    list-style: none;
+    font-size: 14px;
+    margin: 10px 0;
+}
+.contact ul li a{
+    color: grey;
+}
+.contact button{
+    margin: 20px 0;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-top: 1px solid red;
+    width: 100%;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 14px;
 }
