@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    max-width: calc(100vw - 17px);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('../images/bg-img.jpg');
+    background-size:cover;
+}
+.df{
+    display: flex;justify-content: center;
+}
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  } 
+header{
+    margin: 20px 0;
+    padding: 12px 10%;
+    height: 60px;
+}
+header img{
+    height: 100%;
+    cursor: pointer;
+}
+content{
+    display: flex;justify-content: center;
+}
+.signInBox{
+    background-color: rgba(0, 0, 0,0.7);
+    border-radius: 10px;
+    color: white;
+    padding: 60px 60px 150px 60px;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    width: 35%;
+    margin-bottom: 50px;
+}
+.signInBox h2{
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+.input-field{
+    border: 0.5px solid white;
+    border-radius: 5px;
+    background-color: rgba(32, 32, 32, 0.5);
+    color: white;
+    height: 50px;
+    font-size: 13px;
+    padding: 3px 15px;
+    margin: 10px 0;
+}
+.signIn-btn{
+    color: white;
+    font-size: 16px;
+    background: red;
+    padding: 7px 15px;
+    margin:10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    transition: background 0.3s;
+}
+.signIn-btn:hover{
+    background: rgba(255, 0, 0,0.8);
+}
+.code-btn{
+    color: white;
+    font-size: 16px;
+    background: rgba(155, 155, 155, 0.4);
+    padding: 7px 15px;
+    margin:10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    transition: background 0.3s;
+}
+.code-btn:hover{
+    background: rgba(155, 155, 155, 0.3);
+}
+.pswd, .signup{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin: 10px 0;
+}
+.pswd:hover, .signup:hover{
+    text-decoration: underline;
+}
+.checkbox{
+    height: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    margin: 20px 0;
+}
+.checkbox-input{
+    height: 100%;
+    width: 10%;
+}
+.new{
+    font-size: 14px; color: grey;
+}
+footer{
+    background-color: rgba(0, 0, 0,0.7);
+    padding: 60px 10%;
+    width: 100%;
+    color: rgba(128, 128, 128, 0.8);
+}
+.contact p{
+    margin: 10px 0;
+}
+.contact p a{
+    color: rgba(128, 128, 128, 0.8);
+}
+.contact ul{
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+    gap:10px;
+    list-style: none;
+    font-size: 14px;
+    margin: 20px 0 30px 0;
+}
+.contact button{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    background: rgba(22, 22, 22, 0.7);
+    padding: 7px 15px;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.contact ul li a{
+    color: rgba(128, 128, 128, 0.8);
+}
